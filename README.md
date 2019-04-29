@@ -1,0 +1,1 @@
+Typical Python coding challenges given to QA automation engineers during interviews
