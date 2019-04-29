@@ -3,9 +3,10 @@
     Developer: Rob M.
 """
 
-def get_fizzbuzz(multiples, *args):
+
+def get_fizz_buzz(multiples, *args):
     for i in range(*args):
-        output =''
+        output = ''
         for multiple in multiples:
             if i % multiple == 0:
                 output += multiples[multiple]
@@ -14,10 +15,9 @@ def get_fizzbuzz(multiples, *args):
         print(output)
 
 
-
 # example
-multiples = {3:"Fizz", 5:"buzz"}
-get_fizzbuzz(multiples, 1, 999)
+mults = {3: "Fizz", 5: "buzz"}
+get_fizz_buzz(mults, 1, 999)
 
 
 
