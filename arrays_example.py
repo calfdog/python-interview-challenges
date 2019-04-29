@@ -21,3 +21,4 @@ arr = [7, 5, 11, 4]
 target_num = 9
 result = find_nums(arr, target_num)
 print(result)
+
