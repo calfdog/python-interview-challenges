@@ -1,3 +1,6 @@
+"""
+    DESCRIPTION: Recursive example using globals to keep track of state
+"""
 # Global mutable state
 current_number = 1
 accumulated_sum = 0
