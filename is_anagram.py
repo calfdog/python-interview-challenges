@@ -1,5 +1,8 @@
 """
-    Description: Problem: Given two strings, check whether two given strings are an anagram of each other or not. An anagram of a string is another string that contains same characters, only the order of characters can be different.
+    Description: Problem: Given two strings, check whether two given strings are an anagram of each other or not.
+    An anagram of a string is another string that contains same characters, only the order of characters can be
+    different.
+
     For example, "Listen" and "Silent" are an anagram of each other.
     Developer: Rob Marchetti
 """
