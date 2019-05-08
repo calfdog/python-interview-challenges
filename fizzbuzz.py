@@ -1,5 +1,7 @@
 """
-    Description: A Fizz buzz example, that allow easy control to change multiples and range
+    Description: "Write a program that prints the numbers from 1 to 100.
+    But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
+    For numbers which are multiples of both three and five print “FizzBuzz”."
     Developer: Rob M.
 """
 
@@ -17,7 +19,7 @@ def get_fizz_buzz(multiples, *args):
 
 # example
 mults = {3: "Fizz", 5: "buzz"}
-get_fizz_buzz(mults, 1, 999)
+get_fizz_buzz(mults, 1, 101)
 
 
 
